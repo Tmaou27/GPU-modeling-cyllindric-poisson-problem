@@ -1,8 +1,14 @@
-# GPU-modeling-cyllindric-poisson-problem
-FDM, 2d, axial symmetry, cuda, device global memory, c++, poisson equation
+# GPU-Accelerated 2D Poisson Equation Solver (Axial Symmetry, CUDA)
 
-Progamm on python to numerically calculate problem on IYPT https://iypt.ru/%d0%b7%d0%b0%d0%b4%d0%b0%d1%87%d0%b8/2023/4-%d1%8d%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d0%bc%d0%b5%d1%82%d1%80/
-This projects is gpu written version of that programm, what calculates potential destribution and charge on a ball
-Full description of this project lies in pptx presentations
+This project is a GPU-optimized version of a Python program that numerically solves the IYPT 2023 Problem #4 ("Electrometer"). It calculates the potential distribution and charge on a ball using the Poisson equation.
 
-Parallel programming gives amazing performance boost. .OPJ file contains graphic of time in seconds versus count of threads. Python programm in processor takes several hours to calculates
+## Key Features
+- **CUDA parallelization** for massive performance gains (vs. CPU implementation).  
+- **2D axial symmetry** to simplify calculations.  
+
+## Performance
+- The original Python program (CPU) takes several hours to compute.  
+- The CUDA version achieves a significant speedup (see `OPJ` file for benchmarks).  
+
+## Documentation
+A full description of the method and results is available in the presentation file.
