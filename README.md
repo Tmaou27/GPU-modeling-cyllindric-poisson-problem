@@ -5,7 +5,7 @@ This project is a GPU-optimized version of a Python program that numerically sol
 ## Key Features
 - **CUDA parallelization** for massive performance gains (vs. CPU implementation).  
 - **2D axial symmetry** to simplify calculations.
-- **Shared memory** to increase speed.  
+- **Shared memory** to increase speed(180x vs c++ with n > 10e6).  
 
 ## Performance
 - The original Python program (CPU) takes several hours to compute.  
@@ -13,3 +13,6 @@ This project is a GPU-optimized version of a Python program that numerically sol
 
 ## Documentation
 A full description of the method and results is available in the presentation file.
+
+## Benchmark
+A full speed comparasing of the method and results is in .OPJ files.
