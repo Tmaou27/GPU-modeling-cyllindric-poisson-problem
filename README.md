@@ -1,6 +1,6 @@
 # GPU-Accelerated 2D Poisson Equation Solver (Axial Symmetry, CUDA)
 
-This project is a GPU-optimized version of a Python program that numerically solves the IYPT 2023 Problem #4 ("Electrometer"). It calculates the potential distribution and charge on a ball using the Poisson equation.
+This project is a GPU-optimized version of a Python program that numerically solves the IYPT 2024 Problem #13 ("Charge meter"). It calculates the potential distribution and charge on a ball using the Poisson equation.
 
 ## Key Features
 - **CUDA parallelization** for massive performance gains (vs. CPU implementation).  
