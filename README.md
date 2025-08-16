@@ -16,3 +16,4 @@ A full description of the method and results is available in the presentation fi
 
 ## Benchmark
 A full speed comparasing of the method and results is in .OPJ files.
+<img width="978" height="754" alt="Full time comparasing" src="https://github.com/user-attachments/assets/dcb549fe-a8ed-4f25-95a6-90c0537b6861" />
