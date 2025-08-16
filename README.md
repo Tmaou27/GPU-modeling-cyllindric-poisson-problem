@@ -8,8 +8,8 @@ This project is a GPU-optimized version of a Python program that numerically sol
 - **Shared memory** to increase speed(150x vs c++).  
 
 ## Performance
-- The original Python program (CPU) takes several hours to compute.  
-- The CUDA version achieves a significant speedup (see `OPJ` file for benchmarks).  
+- The CUDA version achieves a significant speedup (see `OPJ` file for benchmarks).
+- ~ 1 second for 3*10^6 cells in grid on NVIDEA T4
 
 ## Documentation
 A full description of the method and results is available in the presentation file.
