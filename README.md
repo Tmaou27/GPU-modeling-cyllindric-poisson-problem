@@ -1,5 +1,6 @@
 # GPU-Accelerated 2D Poisson Equation Solver (Axial Symmetry, CUDA)
-**Run on Google Colab**[https://colab.research.google.com/drive/1aOTjWGov35s7MMDJo5lAFTy2tH48Blhs?usp=sharing]
+**Run on Google Colab**
+[https://colab.research.google.com/drive/1aOTjWGov35s7MMDJo5lAFTy2tH48Blhs?usp=sharing]
 
 This project is a GPU-optimized version of a Python program that numerically solves the IYPT 2024 Problem #13 ("Charge meter"). It calculates the potential distribution and charge on a ball using the Poisson equation.
 
@@ -23,7 +24,7 @@ A full description of the method and results is available in the presentation fi
 
 ## Optimal performance parameters  
 - **Block size**: 16×16 (256 threads) → 50% faster 32×32.  
-- **Problem**: Less grid size.
+- **Problem**: Less grid size avialable.
 
 ## Benchmark
 A full speed comparasing of the method and results is in .OPJ files.
