@@ -101,3 +101,4 @@ for i in range(n**2):
             img.put(f'#2D{r}4A', (positon(i)[0]*zoom+k, positon(i)[1]*zoom+b))
 
 mainloop()
+
